@@ -1,6 +1,6 @@
-from auto_retrain import ModelRetrainer, PocketOptionAPI, POCKET_EMAIL, POCKET_PASSWORD, POCKET_API_KEY
+from auto_retrain import ModelRetrainer, PocketOptionAPI
 
 if __name__ == "__main__":
-    api_client = PocketOptionAPI(POCKET_EMAIL, POCKET_PASSWORD, POCKET_API_KEY)
-    retrainer = ModelRetrainer(api_client)
+    api = PocketOptionAPI()
+    retrainer = ModelRetrainer(api)
     retrainer.retrain_model()
