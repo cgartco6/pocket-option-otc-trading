@@ -1,0 +1,32 @@
+# Python
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
+# Data files
+*.h5
+*.pkl
+*.csv
+*.json
+
+# Environment
+.env
+venv/
+env/
+
+# PocketOption credentials
+config.py
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
